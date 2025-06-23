@@ -1,0 +1,22 @@
+# Ambiente Virtual do Python
+.venv/
+venv/
+env/
+
+# Caches do Python
+__pycache__/
+*.pyc
+
+# Arquivos do VS Code
+.vscode/
+
+# Dataset - NÃO suba o dataset para o Git!
+# Se sua pasta de dados tem outro nome, mude aqui.
+dataset/
+evaluation.zip
+
+# Outros
+.DS_Store
+
+# Modelo salvo localmente
+food11_efficientnet_model.keras
